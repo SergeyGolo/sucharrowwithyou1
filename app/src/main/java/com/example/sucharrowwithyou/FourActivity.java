@@ -18,4 +18,10 @@ public class FourActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onButtonClick6(View view) {
+        Intent intent = new Intent(this, CreateAnAccount.class);
+        startActivity(intent);
+    }
 }
+
+
