@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="162dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="OTP Verification"
+        android:textSize="22dp"
+        android:translationX="-93dp"
+        android:translationY="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Enter the 6 digit numbers sent to your email"
+        android:translationX="-36dp"
+        android:translationY="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="10dp"
+            android:translationY="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="80dp"
+            android:translationY="-45dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="150dp"
+            android:translationY="-100dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="220dp"
+            android:translationY="-155dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="290dp"
+            android:translationY="-210dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="360dp"
+            android:translationY="-265dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="272dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="if you didn't receive code, resend after 1:00"
+            android:translationX="-6dp"
+            android:translationY="-240dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/blue"
+            android:onClick="onButtonClick15"
+            android:text="Set New Password"
+            android:textColor="@color/white"
+            android:translationX="-20dp"
+            android:translationY="-180dp"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

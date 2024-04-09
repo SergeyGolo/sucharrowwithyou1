@@ -16,9 +16,14 @@ public class CreateAnAccount extends AppCompatActivity {
     }
 
     public void openLink(View view) {
-        String url = "http://www.it-lex.ru/usloviya_ispolzovaniya_servisa/obrazec-politiki-konfidencialnosti-2017/";
+        String url = "https://support.google.com/accounts/answer/7682439?hl=ru";
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(url));
+        startActivity(intent);
+    }
+
+    public void onButtonClick60(View view) {
+        Intent intent = new Intent(this, FiveActivity.class);
         startActivity(intent);
     }
 }

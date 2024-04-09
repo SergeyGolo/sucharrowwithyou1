@@ -6,4 +6,119 @@
     android:layout_height="match_parent"
     tools:context=".FiveActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="172dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Welcome Back"
+            android:textSize="18dp"
+            android:translationX="-110dp"
+            android:translationY="40dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="272dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Fill in you email and password to continue"
+            android:translationX="-40dp"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="112dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Email Address"
+            android:translationX="-130dp"
+            android:translationY="-10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationX="30dp"
+            android:translationY="-20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:hint="**********@mail.com" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="112dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Password"
+            android:translationX="-145dp"
+            android:translationY="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:translationX="30dp"
+            android:translationY="10dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:hint="*********" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember password"
+            android:translationX="25dp"
+            android:translationY="-10dp"/>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:autoLink="web"
+            android:clickable="true"
+            android:gravity="center"
+            android:linksClickable="true"
+            android:onClick="onButtonClick13"
+            android:text="Forgot password?"
+            android:textColor="@android:color/holo_blue_dark"
+            android:translationX="97dp"
+            android:translationY="-59dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@color/blue"
+            android:onClick="onButtonClick9"
+            android:text="Log in"
+            android:textColor="@color/white"
+            android:translationX="-20dp"
+            android:translationY="50dp"
+            app:cornerRadius="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

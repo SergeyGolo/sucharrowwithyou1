@@ -1,27 +1,21 @@
 package com.example.sucharrowwithyou;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.view.View;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
-public class FourActivity extends AppCompatActivity {
+public class NewPasswordActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_four);
+        setContentView(R.layout.activity_new_password);
     }
 
-    public void onButtonClick5(View view) {
-        Intent intent = new Intent(this, CreateAnAccount.class);
-        startActivity(intent);
-    }
-
-    public void onButtonClick6(View view) {
+    public void onButtonClick16(View view) {
         Intent intent = new Intent(this, FiveActivity.class);
         startActivity(intent);
     }
 }
-
-

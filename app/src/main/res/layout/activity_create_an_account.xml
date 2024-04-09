@@ -12,10 +12,10 @@
       android:layout_height="match_parent"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="1.0">
+      app:layout_constraintVertical_bias="0.0">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -139,10 +139,30 @@
           android:translationX="-5dp"
           android:translationY="5dp">
 
+
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="*********" />
+            android:hint="*********"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/eyeslash"
+            android:translationX="150dp"
+            android:translationY="-25dp" />
+
+        <CheckBox
+            android:id="@+id/showPasswordCheckBox"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:translationX="150dp"
+            android:translationY="-50dp"
+            android:visibility="invisible" />
+
       </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -171,6 +191,23 @@
             android:hint="*********" />
       </com.google.android.material.textfield.TextInputLayout>
 
+      <ImageView
+          android:id="@+id/imageView5"
+          android:layout_width="30dp"
+          android:layout_height="20dp"
+          android:src="@drawable/eyeslash"
+          android:translationX="335dp"
+          android:translationY="-25dp" />
+
+      <CheckBox
+          android:id="@+id/showPasswordCheckBox2"
+          android:layout_width="140dp"
+          android:layout_height="30dp"
+          android:translationX="280dp"
+          android:translationY="-50dp"
+          android:visibility="invisible" />
+
+
       <TextView
           android:id="@+id/textView8"
           android:layout_width="222dp"
@@ -179,32 +216,92 @@
           android:gravity="center"
           android:text="by ticking this box, you agree to our"
           android:translationX="-17dp"
-          android:translationY="5dp" />
+          android:translationY="-15dp" />
 
       <TextView
           android:id="@+id/textView9"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
+          android:layout_width="250dp"
+          android:layout_height="25dp"
           android:layout_gravity="center"
-          android:gravity="center"
-          android:text="Terms and conditions and private policy"
-          android:textColor="@android:color/black"
           android:autoLink="web"
-          android:onClick="openLink"
           android:clickable="true"
+          android:gravity="center"
           android:linksClickable="true"
+          android:onClick="openLink"
+          android:text="Terms and conditions and private policy"
+          android:textColor="@android:color/holo_orange_light"
           android:translationX="-17dp"
-          android:translationY="5dp" />
+          android:translationY="-20dp" />
 
       <CheckBox
-          android:id="@+id/checkBox"
-          android:layout_width="match_parent"
+          android:id="@+id/checkBox1"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:translationX="19dp"
+          android:translationY="-65dp" />
+
+      <Button
+          android:id="@+id/button7"
+          android:layout_width="374dp"
           android:layout_height="wrap_content"
-          android:text="CheckBox"
-          android:translationX="15dp"
-          android:translationY="-49dp" />
+          android:layout_gravity="right"
+          android:backgroundTint="@color/blue"
+          android:onClick="onButtonClick60"
+          android:text="Next"
+          android:textColor="@color/white"
+          android:translationX="-20dp"
+          android:translationY="-70dp"
+          app:cornerRadius="10dp" />
 
+      <TextView
+          android:id="@+id/textView10"
+          android:layout_width="200dp"
+          android:layout_height="25dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="Already have an account?"
+          android:translationX="-17dp"
+          android:translationY="-70dp" />
 
+      <Button
+          android:id="@+id/button5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/transparent"
+          android:onClick="onButtonClick60"
+          android:text="Sign in"
+          android:textColor="@color/blue"
+          android:translationX="250dp"
+          android:translationY="-107dp"
+          app:cornerRadius="5dp"
+          app:strokeWidth="1dp" />
+
+      <TextView
+          android:id="@+id/textView11"
+          android:layout_width="140dp"
+          android:layout_height="25dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:text="or login in using"
+          android:translationX="-17dp"
+          android:translationY="-120dp" />
+
+      <Button
+          android:id="@+id/button10"
+          android:layout_width="49dp"
+          android:layout_height="49dp"
+          android:autoLink="web"
+          android:background="@android:color/transparent"
+          android:clickable="true"
+          android:drawableBottom="@drawable/goggle"
+          android:gravity="center"
+          android:linksClickable="true"
+          android:onClick="openLink"
+          android:textColor="@color/blue"
+          android:translationX="180dp"
+          android:translationY="-140dp"
+          app:cornerRadius="5dp"
+          app:strokeWidth="1dp" />
     </LinearLayout>
 
   </ScrollView>
