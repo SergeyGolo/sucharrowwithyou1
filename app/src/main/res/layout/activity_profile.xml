@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="226dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Home"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="349dp"
+            android:layout_height="48dp"
+            android:text="Enable dark Mode"
+            android:translationX="30dp"
+            android:translationY="130dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:src="@drawable/profilecircle"
+            android:translationX="-131dp"
+            android:translationY="0dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="172dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Hello"
+            android:textSize="18dp"
+            android:translationX="-60dp"
+            android:translationY="-90dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="272dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Current balance:"
+            android:translationX="-30dp"
+            android:translationY="-120dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@android:color/white"
+            android:text="      Edit Profile                                                         >"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:translationX="30dp"
+            android:translationY="-70dp" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/profilecircle"
+            android:translationX="35dp"
+            android:translationY="-110dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Name,phone no, address, email "
+            android:textColorHint="@color/black"
+            android:textSize="11dp"
+            android:translationX="-65dp"
+            android:translationY="-140dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@android:color/white"
+            android:text="      Statements &amp; Reports                                     >"
+            android:translationX="30dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:translationY="-150dp"
+            android:clickable="true"
+            android:onClick="onButtonClick26"/>
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/dock"
+            android:translationX="35dp"
+            android:translationY="-190dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="245dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Download transaction details, orders, deliveries"
+            android:textColorHint="@color/black"
+            android:textSize="11dp"
+            android:translationX="-30dp"
+            android:translationY="-220dp" />
+
+
+        <Button
+            android:id="@+id/button14"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:text="     Notification Setting                                          >"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:translationX="30dp"
+            android:translationY="-230dp"/>
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/notification"
+            android:translationX="35dp"
+            android:translationY="-270dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="mute, unmute, set location &amp; tracking setting "
+            android:textColorHint="@color/black"
+            android:textSize="11dp"
+            android:translationX="-37dp"
+            android:translationY="-300dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textColor="@color/black"
+            android:text="    Cards &amp; Bank account settings                      >"
+            android:translationX="30dp"
+            android:translationY="-310dp"
+            android:clickable="true"
+            android:onClick="onButtonClick23"/>
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/walletii"
+            android:translationX="35dp"
+            android:translationY="-350dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="change cards, delete card details "
+            android:textColorHint="@color/black"
+            android:textSize="11dp"
+            android:translationX="-65dp"
+            android:translationY="-380dp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textColor="@color/black"
+            android:text="    Referrals                                                             >"
+            android:translationX="30dp"
+            android:translationY="-390dp"/>
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/twopers"
+            android:translationX="35dp"
+            android:translationY="-430dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="check no of friends and earn "
+            android:textColorHint="@color/black"
+            android:textSize="11dp"
+            android:translationX="-75dp"
+            android:translationY="-460dp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textColor="@color/black"
+            android:text="    About Us                                                             >"
+            android:translationX="30dp"
+            android:translationY="-470dp"/>
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/map"
+            android:translationX="35dp"
+            android:translationY="-510dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="know more about us, terms and conditions "
+            android:textColorHint="@color/black"
+            android:textSize="11dp"
+            android:translationX="-40dp"
+            android:translationY="-540dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:backgroundTint="@android:color/white"
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:textColor="@color/black"
+            android:text="     Log Out                                                                >"
+            android:translationX="30dp"
+            android:translationY="-550dp"
+            android:clickable="true"
+            android:onClick="onButtonClick22"/>
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logout"
+            android:translationX="35dp"
+            android:translationY="-590dp" />
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/houseg"
+            android:translationX="20dp"
+            android:translationY="-510dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/wallet"
+            android:translationX="110dp"
+            android:translationY="-558dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/car"
+            android:translationX="230dp"
+            android:translationY="-606dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:clickable="true"
+            android:onClick="onButtonClick21"
+            android:src="@drawable/profb"
+            android:translationX="330dp"
+            android:translationY="-653dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
