@@ -28,7 +28,8 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="Home"
-                android:textSize="22dp" />
+                android:textSize="22dp"
+                android:textColor="@android:color/darker_gray"/>
         </LinearLayout>
     </ScrollView>
 
@@ -74,6 +75,7 @@
             android:translationX="-30dp"
             android:translationY="-120dp" />
 
+
         <Button
             android:id="@+id/button8"
             android:layout_width="350dp"
@@ -116,7 +118,7 @@
             android:textSize="14dp"
             android:translationY="-150dp"
             android:clickable="true"
-            android:onClick="onButtonClick26"/>
+            android:onClick="onButtonClick79"/>
 
         <ImageView
             android:id="@+id/imageView23"
@@ -148,7 +150,9 @@
             android:textColor="@color/black"
             android:textSize="14dp"
             android:translationX="30dp"
-            android:translationY="-230dp"/>
+            android:translationY="-230dp"
+            android:clickable="true"
+            android:onClick="onButtonClick80"/>
 
         <ImageView
             android:id="@+id/imageView24"
@@ -240,7 +244,11 @@
             android:textColor="@color/black"
             android:text="    About Us                                                             >"
             android:translationX="30dp"
-            android:translationY="-470dp"/>
+            android:translationY="-470dp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:onClick="openLink"/>
 
         <ImageView
             android:id="@+id/imageView28"
@@ -288,7 +296,9 @@
             android:layout_height="48dp"
             android:src="@drawable/houseg"
             android:translationX="20dp"
-            android:translationY="-510dp" />
+            android:translationY="-510dp"
+            android:clickable="true"
+            android:onClick="onButtonClick100"/>
 
         <ImageView
             android:id="@+id/imageView3"
@@ -316,6 +326,16 @@
             android:translationX="330dp"
             android:translationY="-653dp"/>
 
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="110dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="N10,712:00"
+            android:translationX="70dp"
+            android:translationY="-1242dp"
+            android:textColor="@android:color/holo_blue_dark"/>
 
     </LinearLayout>
 

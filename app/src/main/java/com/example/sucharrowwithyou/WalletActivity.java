@@ -6,21 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class PackageActivity extends AppCompatActivity {
+public class WalletActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_package);
+        setContentView(R.layout.activity_wallet);
     }
-    public void onButtonClick25(View view) {
-        Intent intent = new Intent(this, ProfileActivity.class);
+    public void onButtonClick21(View view) {
+        Intent intent = new Intent(this, VerificationActivity.class);
         startActivity(intent);
     }
 
-    public void onButtonClick26(View view) {
-        Intent intent = new Intent(this, PackagetwoActivity.class);
+    public void onButtonClick100(View view) {
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
-
 }

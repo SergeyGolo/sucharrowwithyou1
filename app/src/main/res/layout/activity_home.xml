@@ -39,34 +39,34 @@
 
         <ImageView
             android:id="@+id/home"
-            android:layout_width="match_parent"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:src="@drawable/houseb"
-            android:translationX="-173dp"
+            android:translationX="23dp"
             android:translationY="610dp"/>
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="match_parent"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:src="@drawable/wallet"
-            android:translationX="-63dp"
+            android:translationX="123dp"
             android:translationY="570dp"/>
 
         <ImageView
             android:id="@+id/imageView6"
-            android:layout_width="match_parent"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:src="@drawable/car"
-            android:translationX="53dp"
-            android:translationY="527dp"/>
+            android:translationX="243dp"
+            android:translationY="529dp"/>
 
         <ImageView
             android:id="@+id/imageView7"
-            android:layout_width="match_parent"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:src="@drawable/prof"
-            android:translationX="163dp"
+            android:translationX="343dp"
             android:translationY="488dp"
             android:clickable="true"
             android:onClick="onButtonClick20"/>

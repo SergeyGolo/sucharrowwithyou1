@@ -49,15 +49,18 @@
                 android:translationY="-30dp"
                 android:textSize="20dp"/>
 
+
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:translationY="-30dp">
+                android:translationY="-30dp"
+                android:id="@+id/addrest">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Addres" />
+                    android:hint="Addres"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -190,25 +193,30 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Instant delivery"
+                android:translationX="10dp"
+                android:translationY="-18dp"
+                android:clickable="true"
+                android:onClick="onButtonClick26"
+                tools:layout_editor_absoluteY="614dp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Schedule delivery"
+                android:translationX="225dp"
+                android:translationY="-65dp"
+                tools:layout_editor_absoluteY="114dp"/>
         </LinearLayout>
+
 
     </ScrollView>
 
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Instant delivery"
-        android:translationX="10dp"
-        android:translationY="0dp"
-        tools:layout_editor_absoluteY="614dp" />
 
-    <Button
-        android:id="@+id/button18"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:text="Schedule delivery"
-        android:translationX="225dp"
-        tools:layout_editor_absoluteY="614dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
