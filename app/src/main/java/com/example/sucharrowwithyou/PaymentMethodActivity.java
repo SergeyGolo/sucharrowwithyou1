@@ -18,4 +18,9 @@ public class PaymentMethodActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ProfileActivity.class);
         startActivity(intent);
     }
+
+    public void gotowallet(View view) {
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
 }
