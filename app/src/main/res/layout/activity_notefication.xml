@@ -39,9 +39,10 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:onClick="onButtonClick25"
-                android:translationX="10dp"
+                android:translationX="-100dp"
                 android:translationY="-30dp"
-                app:srcCompat="@drawable/arrow" />
+                app:srcCompat="@drawable/arrow"
+                android:layout_gravity="center"/>
 
         </LinearLayout>
 
@@ -68,8 +69,9 @@
             android:layout_width="75dp"
             android:layout_height="86dp"
             android:src="@drawable/notification"
-            android:translationX="170dp"
-            android:translationY="110dp" />
+            android:translationX="10dp"
+            android:translationY="110dp"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

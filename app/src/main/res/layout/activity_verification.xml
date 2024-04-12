@@ -32,77 +32,6 @@
         android:translationX="-36dp"
         android:translationY="10dp" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="50dp"
-            android:layout_height="55dp"
-            android:translationX="10dp"
-            android:translationY="10dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="50dp"
-            android:layout_height="55dp"
-            android:translationX="80dp"
-            android:translationY="-45dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="50dp"
-            android:layout_height="55dp"
-            android:translationX="150dp"
-            android:translationY="-100dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="50dp"
-            android:layout_height="55dp"
-            android:translationX="220dp"
-            android:translationY="-155dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="50dp"
-            android:layout_height="55dp"
-            android:translationX="290dp"
-            android:translationY="-210dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="50dp"
-            android:layout_height="55dp"
-            android:translationX="360dp"
-            android:translationY="-265dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="hint" />
-        </com.google.android.material.textfield.TextInputLayout>
         <TextView
             android:id="@+id/textView3"
             android:layout_width="272dp"
@@ -115,15 +44,120 @@
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="374dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
+            android:layout_gravity="center"
             android:backgroundTint="@color/blue"
             android:onClick="onButtonClick15"
             android:text="Set New Password"
             android:textColor="@color/white"
-            android:translationX="-20dp"
-            android:translationY="-180dp"
+            android:translationY="240dp"
             app:cornerRadius="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:translationX="0dp"
+            android:translationY="-65dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="149dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="InefficientWeight"
+            android:layout_marginLeft="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="InefficientWeight"
+            android:layout_marginLeft="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="InefficientWeight"
+            android:layout_marginLeft="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="InefficientWeight"
+            android:layout_marginLeft="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="InefficientWeight"
+            android:layout_marginLeft="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="InefficientWeight"
+            android:layout_marginLeft="30dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

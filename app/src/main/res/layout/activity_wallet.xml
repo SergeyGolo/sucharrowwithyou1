@@ -114,64 +114,75 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/houseg"
-            android:translationX="20dp"
+            android:translationX="-100dp"
             android:translationY="210dp"
             android:clickable="true"
-            android:onClick="onButtonClick100"/>
+            android:onClick="onButtonClick100"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/walletb"
-            android:translationX="110dp"
-            android:translationY="162dp" />
+            android:translationX="-30dp"
+            android:translationY="162dp"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/car"
-            android:translationX="230dp"
-            android:translationY="114dp" />
+            android:translationX="30dp"
+            android:translationY="114dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onButtonClick124"/>
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:clickable="true"
-            android:onClick="onButtonClick21"
+            android:onClick="onButtonClick123"
             android:src="@drawable/prof"
-            android:translationX="330dp"
-            android:translationY="66dp"/>
+            android:translationX="100dp"
+            android:translationY="66dp"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:id="@+id/imageView61"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/bank"
-            android:translationX="90dp"
-            android:translationY="-370dp" />
+            android:translationX="-70dp"
+            android:translationY="-370dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="onButtonClick100"/>
 
         <ImageView
             android:id="@+id/imageView62"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:src="@drawable/transfer"
-            android:translationX="180dp"
+            android:translationX="0dp"
             android:translationY="-418dp"
             android:clickable="true"
-            android:onClick="onButtonClick101"/>
+            android:onClick="onButtonClick122"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:id="@+id/imageView63"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:clickable="true"
-            android:onClick="onButtonClick21"
+            android:onClick="onButtonClick121"
             android:src="@drawable/card"
-            android:translationX="270dp"
-            android:translationY="-466dp"/>
+            android:translationX="70dp"
+            android:translationY="-466dp"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

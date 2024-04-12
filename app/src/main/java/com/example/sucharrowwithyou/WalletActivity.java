@@ -13,13 +13,27 @@ public class WalletActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wallet);
     }
-    public void onButtonClick21(View view) {
-        Intent intent = new Intent(this, VerificationActivity.class);
+    public void onButtonClick121(View view) {
+        Intent intent = new Intent(this, PaymentMethodActivity.class);
+        startActivity(intent);
+    }
+
+    public void onButtonClick122(View view) {
+        Intent intent = new Intent(this, NoteficationActivity.class);
         startActivity(intent);
     }
 
     public void onButtonClick100(View view) {
         Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
+    }
+    public void onButtonClick123(View view) {
+        Intent intent = new Intent(this, ProfileActivity.class);
+        startActivity(intent);
+    }
+
+    public void onButtonClick124(View view) {
+        Intent intent = new Intent(this, TrackActivity.class);
         startActivity(intent);
     }
 }

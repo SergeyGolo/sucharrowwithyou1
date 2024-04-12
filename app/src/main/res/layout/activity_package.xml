@@ -199,20 +199,35 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Instant delivery"
-                android:translationX="10dp"
+                android:translationX="-100dp"
                 android:translationY="-18dp"
                 android:clickable="true"
                 android:onClick="onButtonClick26"
-                tools:layout_editor_absoluteY="614dp" />
+                tools:layout_editor_absoluteY="114dp"
+                android:layout_gravity="center"
+                app:cornerRadius="5dp"
+                tools:ignore="InefficientWeight"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"/>
 
             <Button
                 android:id="@+id/button18"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:text="Schedule delivery"
-                android:translationX="225dp"
+                android:translationX="105dp"
+                android:textColor="@color/black"
                 android:translationY="-65dp"
-                tools:layout_editor_absoluteY="114dp"/>
+                tools:layout_editor_absoluteY="114dp"
+                android:layout_gravity="center"
+                app:cornerRadius="5dp"
+                tools:ignore="InefficientWeight"
+                app:strokeColor="@color/black"
+                android:drawableTint="@color/blue"
+                app:strokeWidth="1dp"
+                android:backgroundTint="@color/design_default_color_background"
+                android:foregroundTint="#000000"
+                />
         </LinearLayout>
 
 

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PackagetwoActivity">
+    tools:context=".PackageActivityiii">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -239,11 +240,11 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Edit package"
+                android:text="Report"
                 android:translationX="10dp"
                 android:translationY="-130dp"
                 android:clickable="true"
-                android:onClick="onButtonClick27"
+                android:onClick="suciii"
                 android:textColor="@color/blue"
                 app:cornerRadius="5dp"
                 app:strokeColor="@color/blue"
@@ -254,11 +255,11 @@
                 android:id="@+id/button18"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
-                android:text="Make payment"
+                android:text="Sucesful"
                 android:translationX="225dp"
                 android:translationY="-180dp"
                 android:clickable="true"
-                android:onClick="onButtonClick28"
+                android:onClick="suciii"
                 app:cornerRadius="5dp"
                 android:backgroundTint="@color/blue"
                 />

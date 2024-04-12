@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="537dp"
+                android:layout_height="335dp"
+                android:layout_gravity="center"
+                android:src="@drawable/yesthisismap"
+                android:translationX="0dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="162dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Tracking Number"
+                android:textSize="20dp"
+                android:translationX="-87dp"
+                android:translationY="5dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="250dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:autoLink="web"
+                android:clickable="true"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:onClick="openLink"
+                android:text="r-23424-2344-213-124"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20dp"
+                android:translationX="-37dp"
+                android:translationY="10dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="162dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Tracking Number"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16dp"
+                android:translationX="-100dp"
+                android:translationY="5dp" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Courier requested"
+                android:textColor="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package ready for delyvery"
+                android:textColor="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package in transit"
+                android:textColor="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Package delivered"
+                android:textColor="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue"
+                android:onClick="onButtonClick160"
+                android:text="Viev Package Info "
+                android:textColor="@color/white"
+                android:translationX="-20dp"
+                android:translationY="70dp"
+                app:cornerRadius="5dp" />
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="onButtonClick60"
+                android:src="@drawable/houseg"
+                android:translationX="-100dp"
+                android:translationY="81dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="gotowallet"
+                android:src="@drawable/wallet"
+                android:translationX="-30dp"
+                android:translationY="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/carb"
+                android:translationX="30dp"
+                android:translationY="-15dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:onClick="onButtonClick21"
+                android:src="@drawable/prof"
+                android:translationX="100dp"
+                android:translationY="-60dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

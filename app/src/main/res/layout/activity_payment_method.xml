@@ -39,9 +39,10 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:onClick="onButtonClick25"
-                android:translationX="10dp"
+                android:translationX="-180dp"
                 android:translationY="-30dp"
-                app:srcCompat="@drawable/arrow" />
+                app:srcCompat="@drawable/arrow"
+                android:layout_gravity="center"/>
 
 
             <Button
@@ -67,38 +68,42 @@
                 app:cornerRadius="5dp" />
             <CheckBox
                 android:id="@+id/checkBox2"
-                android:layout_width="match_parent"
+                android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:text="Pay with wallet"
-                android:translationX="60dp"
-                android:translationY="-170dp"/>
+                android:translationX="-10dp"
+                android:translationY="-170dp"
+                android:layout_gravity="center"/>
 
             <CheckBox
                 android:id="@+id/checkBox3"
-                android:layout_width="match_parent"
+                android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:text="Credit / debit card"
-                android:translationX="60dp"
-                android:translationY="-120dp"/>
+                android:translationX="-10dp"
+                android:translationY="-120dp"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:id="@+id/textView37"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:text="complete the payment using your debit card"
-                android:translationX="90dp"
+                android:translationX="0dp"
                 android:translationY="-110dp"
                 android:textSize="12dp"
+                android:layout_gravity="center"
                 android:textColor="@android:color/darker_gray"/>
 
             <TextView
                 android:id="@+id/textView39"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
                 android:text="complete the payment using your e wallet"
-                android:translationX="90dp"
+                android:translationX="0dp"
                 android:translationY="-240dp"
                 android:textSize="12dp"
+                android:layout_gravity="center"
                 android:textColor="@android:color/darker_gray"/>
 
         </LinearLayout>

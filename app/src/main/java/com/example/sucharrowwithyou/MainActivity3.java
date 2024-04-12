@@ -8,20 +8,16 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
-
-public class MainActivity2 extends AppCompatActivity {
-
+public class MainActivity3 extends AppCompatActivity {
     private ImageView imageView;
     private Handler handler;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main3);
 
         imageView = findViewById(R.id.imageView10);
         handler = new Handler();
-
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -35,15 +31,15 @@ public class MainActivity2 extends AppCompatActivity {
                             public void run() {
                                 imageView.setImageResource(R.drawable.loadiiii);
 
-                                     handler.postDelayed(new Runnable() {
-                                        @Override
-                                        public void run() {
-                                            imageView.setImageResource(R.drawable.suci);
-                                            handler.postDelayed(new Runnable() {
-                                                @Override
-                                                public void run() {
-                                                    imageView.setImageResource(R.drawable.sucii);
-                                          }
+                                handler.postDelayed(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        imageView.setImageResource(R.drawable.suci);
+                                        handler.postDelayed(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                imageView.setImageResource(R.drawable.sucii);
+                                            }
                                         }, 400);
                                     }
                                 }, 400);
@@ -54,20 +50,10 @@ public class MainActivity2 extends AppCompatActivity {
             }
         }, 400);
     }
-    public void openLink(View view) {
-        String url = "https://support.google.com/accounts/answer/7682439?hl=ru";
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(url));
-        startActivity(intent);
-    }
-
-    public void Track(View view) {
-        Intent intent = new Intent(this, TrackActivity.class);
-        startActivity(intent);
-    }
-
     public void Home(View view) {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
+
+
 }
